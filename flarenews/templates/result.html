@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>News Detection Result</title>
+</head>
+<body>
+    <div class="container">
+        <h1>News Detection Result</h1>
+        <p>News Text: {{ news_text }}</p>
+        <p>Result: {{ result }}</p>
+        <a href="/">Go back</a>
+    </div>
+</body>
+</html>
